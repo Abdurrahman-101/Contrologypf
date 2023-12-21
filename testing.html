@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Brown Background Text Area</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
+
+.text-area {
+            background-color: brown;
+            color: white;
+            padding: 40px; /* Increased padding for a more spacious look */
+            width: 100%; /* Take up the full width of the column */
+        }
+
+        .main-text {
+            width: 9099px;
+            max-width: 5000px; /* Increased max-width for better readability */
+            margin: 0 auto; /* Center the text area within the column */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="column"></div>
+        <div class="column text-area">
+            <div class="main-text">
+                <!-- Your main text content goes here -->
+                <p>This is the main text area with a brown background.</p>
+            </div>
+        </div>
+        <div class="column"></div>
+    </div>
+
+</body>
+</html>
