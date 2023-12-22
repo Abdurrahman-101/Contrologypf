@@ -99,10 +99,16 @@ header{
     background-color: #fff  ;
     box-shadow: 0 0 20px 0  #262626;
 }
+.navbar-toggler-icon{
+    color: #000 !important;
+}
 .navbar-collapse ul {
     text-align: center;
     align-items: center;
     display: inherit;
+}
+.navbar-toggler{
+    color:var(--e-global-color-white) !important;
 }
 .navbar-nav .nav-item a {
     font-size: 18px;
@@ -263,6 +269,7 @@ header{
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
+    margin-left:10px;
     padding: 20px 80px 20px 32px;
     text-align: center;
     color: var(--e-global-color-white);
@@ -456,12 +463,14 @@ header{
 
 .aboutus_section {
     /* background: linear-gradient(to right, #001f3f, #ffffff); */
-    background-color: #98c1eb;
+    background-color: #a4cbff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 60px 0 60px;
 }
+
+
 .aboutus_image {
     position: relative;
 }
@@ -497,14 +506,14 @@ header{
     font-size: 65px;
     line-height: 55px;
     font-weight: 600;
-    color: var(--e-global-color-numbers);
+    color: var(--e-global-color-white);
 }
 .aboutus_content .counter_wrapper .plus_sign {
     font-family: "Lato", sans-serif;
     font-size: 65px;
     line-height: 55px;
     font-weight: 600;
-    color: var(--e-global-color-numbers);
+    color: var(--e-global-color-white);
     margin-left: -6px;
 }
 .aboutus_content .counter_wrapper p {
@@ -1084,7 +1093,7 @@ header{
     transition: all 0.3s ease-in-out;
 }
 .team_member_box_upper_portion img {
-    padding-left:0.5em;
+    padding-left:0.7em;
     transition: all 0.3s ease-in-out;
 }
 .team_member_box_upper_portion img:hover {
@@ -2580,7 +2589,7 @@ body
 
 @media screen and (max-width: 767px) {
     .team_member_box_upper_portion img {
-        padding-left: 1.2em;
+        padding-left: 9%;
         wransition: all 0.3s ease-in-out;
     }
 
@@ -2594,4 +2603,14 @@ body
         width: 4rem;
         height: 2rem;
     }
+    .banner-section-content .btn_wrapper .join_now_btn {       
+        margin-left:32px;        
+}
+.navbar-collapse .ml-auto .nav-item .nav-link{
+    color: white;
+}   
+.navbar-light .navbar-toggler-icon {
+    background-color: #000 !important;    
+}
+
 }
